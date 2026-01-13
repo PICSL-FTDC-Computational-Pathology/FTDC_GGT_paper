@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE registry [
+<!ELEMENT registry (entry*,folder*)>
+<!ELEMENT folder (entry*,folder*)>
+<!ELEMENT entry EMPTY>
+<!ATTLIST folder key CDATA #REQUIRED>
+<!ATTLIST entry key CDATA #REQUIRED>
+<!ATTLIST entry value CDATA #REQUIRED>
+]>
+<registry>
+  <entry key="Format" value="ITK-SNAP Annotation File" />
+  <entry key="FormatDate" value="20150624" />
+  <folder key="Annotations" >
+    <entry key="ArraySize" value="5" />
+    <folder key="Element[0]" >
+      <entry key="Color" value="1 0 0" />
+      <entry key="Offset" value="0.585275 -1.24086" />
+      <entry key="Plane" value="1" />
+      <entry key="Pos" value="259.148 0.5 148.042" />
+      <entry key="Selected" value="0" />
+      <entry key="Tags" value="" />
+      <entry key="Text" value="wm_dylan" />
+      <entry key="Type" value="LandmarkAnnotation" />
+      <entry key="VisibleInAllPlanes" value="0" />
+      <entry key="VisibleInAllSlices" value="0" />
+    </folder>
+    <folder key="Element[1]" >
+      <entry key="Color" value="1 0 0" />
+      <entry key="Offset" value="3.09632 2.71906" />
+      <entry key="Plane" value="1" />
+      <entry key="Pos" value="235.623 0.5 128.474" />
+      <entry key="Selected" value="0" />
+      <entry key="Tags" value="" />
+      <entry key="Text" value="gm" />
+      <entry key="Type" value="LandmarkAnnotation" />
+      <entry key="VisibleInAllPlanes" value="0" />
+      <entry key="VisibleInAllSlices" value="0" />
+    </folder>
+    <folder key="Element[2]" >
+      <entry key="Color" value="1 0 0" />
+      <entry key="Offset" value="3.88848 -4.36017" />
+      <entry key="Plane" value="1" />
+      <entry key="Pos" value="230.384 0.5 157.833" />
+      <entry key="Selected" value="0" />
+      <entry key="Tags" value="" />
+      <entry key="Text" value="left" />
+      <entry key="Type" value="LandmarkAnnotation" />
+      <entry key="VisibleInAllPlanes" value="0" />
+      <entry key="VisibleInAllSlices" value="0" />
+    </folder>
+    <folder key="Element[3]" >
+      <entry key="Color" value="1 0 0" />
+      <entry key="Offset" value="3.11931 -3.50611" />
+      <entry key="Plane" value="1" />
+      <entry key="Pos" value="230.707 0.5 151.672" />
+      <entry key="Selected" value="0" />
+      <entry key="Tags" value="" />
+      <entry key="Text" value="right" />
+      <entry key="Type" value="LandmarkAnnotation" />
+      <entry key="VisibleInAllPlanes" value="0" />
+      <entry key="VisibleInAllSlices" value="0" />
+    </folder>
+    <folder key="Element[4]" >
+      <entry key="Color" value="1 0 0" />
+      <entry key="Offset" value="2.88493 2.27533" />
+      <entry key="Plane" value="1" />
+      <entry key="Pos" value="230.826 0.5 141.97" />
+      <entry key="Selected" value="1" />
+      <entry key="Tags" value="" />
+      <entry key="Text" value="wm" />
+      <entry key="Type" value="LandmarkAnnotation" />
+      <entry key="VisibleInAllPlanes" value="0" />
+      <entry key="VisibleInAllSlices" value="0" />
+    </folder>
+  </folder>
+</registry>
